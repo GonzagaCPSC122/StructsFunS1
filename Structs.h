@@ -16,5 +16,6 @@ struct Fruit {
 };
 
 void printFruit(Fruit);
+int compareFruits(Fruit *, Fruit *);
 
 #endif

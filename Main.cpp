@@ -42,8 +42,9 @@ int main() {
 	// return -1 if left fruit param < right fruit param
 	// return 1 if right fruit param > left fruit param
 	// return 0 if the fruit params are the same
-	
-	
+	cout << compareFruits(&myFruit, &myOtherFruit) << endl;
+	myOtherFruit.type = "apple";
+	cout << compareFruits(&myFruit, &myOtherFruit) << endl;
 
 	return 0;
 }
